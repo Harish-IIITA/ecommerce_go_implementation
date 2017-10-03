@@ -1,0 +1,2 @@
+{"_id":{"$oid":"59c38e6af85a4227b89ce6e4"},"name":"Savita","gender":"female","age":22,"height":172,"color":"Blue","interest":"Party"}
+{"_id":{"$oid":"59ca2038f85a42248897608d"},"name":"Puneet","gender":"male","age":22,"height":172,"color":"fair","interest":"Party"}

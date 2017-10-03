@@ -1,0 +1,16 @@
+package models
+
+import "gopkg.in/mgo.v2/bson"
+
+type (
+	// User represents the structure of our resource
+	User struct {
+		ID       bson.ObjectId `json:"id" bson:"_id"`
+		Name     string        `json:"name" bson:"name"`
+		Gender   string        `json:"gender" bson:"gender"`
+		Age      int           `json:"age" bson:"age"`
+		Height   int           `json:"height" bson:"height"`
+		Color    string        `json:"color" bson:"color"`
+		Interest string        `json:"interest" bson:"interest"`
+	}
+)
